@@ -88,7 +88,7 @@ function draw() {
     text(bird.score, width / 2, height / 5);
   }
   if (pipes.length - 1 < 0) {
-    text("Let's go", width / 2, height / 3);
+    text("Hold your index finger up \non the camera to \nmove the bird", width / 2, height / 3);
   }
 }
 
